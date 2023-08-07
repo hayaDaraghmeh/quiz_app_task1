@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
       title: 'Quiz App ',
       theme: ThemeData(
         colorScheme:
-            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 250, 211, 17)),
+            ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 250, 211, 17)),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
